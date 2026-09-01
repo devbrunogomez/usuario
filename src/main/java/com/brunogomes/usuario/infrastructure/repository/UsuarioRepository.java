@@ -1,6 +1,7 @@
-package com.brunogomes.aprendendo_spring.infrastructure.repository;
+package com.brunogomes.usuario.infrastructure.repository;
 
-import com.brunogomes.aprendendo_spring.infrastructure.entity.Usuario;
+
+import com.brunogomes.usuario.infrastructure.entity.Usuario;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package com.brunogomes.aprendendo_spring.infrastructure.repository;
+package com.brunogomes.usuario.infrastructure.repository;
 
 import com.brunogomes.aprendendo_spring.infrastructure.entity.Enderecos;
 import org.springframework.data.jpa.repository.JpaRepository;

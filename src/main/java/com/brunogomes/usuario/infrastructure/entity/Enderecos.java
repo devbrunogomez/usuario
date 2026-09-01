@@ -1,10 +1,6 @@
-package com.brunogomes.aprendendo_spring.infrastructure.entity;
-import ch.qos.logback.core.model.NamedModel;
+package com.brunogomes.usuario.infrastructure.entity;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
@@ -12,6 +8,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 @Table(name = "enderecos")
+@Builder
 
 public class Enderecos {
 
