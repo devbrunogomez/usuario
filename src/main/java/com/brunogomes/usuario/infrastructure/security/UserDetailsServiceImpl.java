@@ -1,8 +1,7 @@
-package com.brunogomes.aprendendo_spring.infrastructure.security;
+package com.brunogomes.usuario.infrastructure.security;
 
-
-import com.brunogomes.aprendendo_spring.infrastructure.entity.Usuario;
-import com.brunogomes.aprendendo_spring.infrastructure.repository.UsuarioRepository;
+import com.brunogomes.usuario.infrastructure.entity.Usuario;
+import com.brunogomes.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

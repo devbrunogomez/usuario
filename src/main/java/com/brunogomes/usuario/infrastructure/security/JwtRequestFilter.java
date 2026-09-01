@@ -1,4 +1,4 @@
-package com.brunogomes.aprendendo_spring.infrastructure.security;
+package com.brunogomes.usuario.infrastructure.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
