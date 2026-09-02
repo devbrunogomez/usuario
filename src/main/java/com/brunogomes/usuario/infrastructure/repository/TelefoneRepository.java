@@ -1,6 +1,7 @@
 package com.brunogomes.usuario.infrastructure.repository;
 
-import com.brunogomes.aprendendo_spring.infrastructure.entity.Telefone;
+
+import com.brunogomes.usuario.infrastructure.entity.Telefone;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
